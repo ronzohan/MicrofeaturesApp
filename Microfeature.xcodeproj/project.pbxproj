@@ -19,6 +19,8 @@
 		EE1E347B1FDD9263006D0F31 /* CoreFeature.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E34791FDD9263006D0F31 /* CoreFeature.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EE1E347D1FDD9263006D0F31 /* ComponentFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E347C1FDD9263006D0F31 /* ComponentFeature.framework */; };
 		EE1E347E1FDD9263006D0F31 /* ComponentFeature.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E347C1FDD9263006D0F31 /* ComponentFeature.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE1E34EE1FDDA462006D0F31 /* MicrofeatureNetworkModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E34ED1FDDA461006D0F31 /* MicrofeatureNetworkModule.framework */; };
+		EE1E34EF1FDDA462006D0F31 /* MicrofeatureNetworkModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E34ED1FDDA461006D0F31 /* MicrofeatureNetworkModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 			files = (
 				EE1E347B1FDD9263006D0F31 /* CoreFeature.framework in Embed Frameworks */,
 				EE1E347E1FDD9263006D0F31 /* ComponentFeature.framework in Embed Frameworks */,
+				EE1E34EF1FDDA462006D0F31 /* MicrofeatureNetworkModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +73,7 @@
 		EE1E340F1FDD8452006D0F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE1E34791FDD9263006D0F31 /* CoreFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1E347C1FDD9263006D0F31 /* ComponentFeature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ComponentFeature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1E34ED1FDDA461006D0F31 /* MicrofeatureNetworkModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MicrofeatureNetworkModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1E34EE1FDDA462006D0F31 /* MicrofeatureNetworkModule.framework in Frameworks */,
 				EE1E347A1FDD9263006D0F31 /* CoreFeature.framework in Frameworks */,
 				EE1E347D1FDD9263006D0F31 /* ComponentFeature.framework in Frameworks */,
 			);
@@ -102,11 +107,11 @@
 		EE1E33DE1FDD8451006D0F31 = {
 			isa = PBXGroup;
 			children = (
+				EE1E343F1FDD8686006D0F31 /* Frameworks */,
 				EE1E33E91FDD8451006D0F31 /* Microfeature */,
 				EE1E34011FDD8452006D0F31 /* MicrofeatureTests */,
 				EE1E340C1FDD8452006D0F31 /* MicrofeatureUITests */,
 				EE1E33E81FDD8451006D0F31 /* Products */,
-				EE1E343F1FDD8686006D0F31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +160,7 @@
 		EE1E343F1FDD8686006D0F31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE1E34ED1FDDA461006D0F31 /* MicrofeatureNetworkModule.framework */,
 				EE1E347C1FDD9263006D0F31 /* ComponentFeature.framework */,
 				EE1E34791FDD9263006D0F31 /* CoreFeature.framework */,
 			);

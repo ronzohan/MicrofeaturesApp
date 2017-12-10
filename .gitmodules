@@ -4,3 +4,6 @@
 [submodule "MicrofeatureComponentModule"]
 	path = MicrofeatureComponentModule
 	url = https://github.com/ronzohan/MicrofeatureComponentModule
+[submodule "MicrofeatureNetworkModule"]
+	path = MicrofeatureNetworkModule
+	url = https://github.com/ronzohan/MicrofeatureNetworkModule.git
